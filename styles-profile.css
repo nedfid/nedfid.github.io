@@ -1,0 +1,137 @@
+header {
+  height: 48px;
+  background-color: #004461;
+  display: flex;
+  color:white;
+  margin-left: -8px; /* отступ слева */
+  margin-right: -8px; /* отступ слева */
+}
+img {
+      height: auto; /* высота логотипа */
+      width: auto;
+      margin-left: 183px; /* отступ слева */
+      margin-top: 8px; /* отступ сверху */
+      margin-bottom: 8px; /* отступ снизу */
+    }
+.search-form {
+  position: relative;
+  width: 358px ;
+  height: 34px;
+  margin-left: 542px; /* отступ слева */
+  border: 1px solid white;
+border-radius: 5px; /* рамки закругленные на 5 пикселей */
+background-color: transparent; /* фон цветом прозрачный */
+  border: none;
+  margin-top:8px;
+}
+.search-form::after {
+content: "";
+position: absolute;
+top: 6px;
+right: 20px; /* отступ справа для лупы */
+width: 16px;
+height: 16px;
+background-image: url('lupa.svg'); /* замените 'your-image-url.png' на ссылку на вашу иконку лупы */
+background-size: cover;
+}
+.search-form input[type="text"] {
+width: 318px; /* учитываем отступ справа для лупы */
+height: 28px;
+border: 1px solid white;
+color: white;
+border-radius: 5px; /* рамки закругленные на 5 пикселей */
+background-color: rgba(255, 255, 255, 0.15); /* фон цветом прозрачный */
+padding-right: 30px; /* учитываем отступ для лупы */
+margin-right: 100px;
+}
+.menu_row {
+    width: 128px;
+    height: 128px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #CED4D6;
+    border-width: 0.5px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-top:-530px;
+    margin-left:160px;
+}
+
+.men_col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.men_col button {
+    width: 96px;
+    border-width: 0px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.gradient-div {
+    height: 262px;
+    background: linear-gradient(to right, #000000, #004461);
+      margin-left: -8px; /* отступ слева */
+  margin-right: -8px; /* отступ слева */
+   display: flex;
+  }
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* чтобы сделать круглую форму */
+    background: url('soft.jpg') left/cover; /* подставьте ссылку на вашу аватарку */
+    margin-left: 116px;
+    margin-top:30px;
+  }
+.h1{
+  color: white;
+}
+body {
+            background-color: #F2F2F2; /* серый фон */
+            color: #364146;
+        }
+        .div1 {
+            height: 237px;
+            width: 900px;
+            margin-top: 40px;
+            margin-left: 340px;
+            background-color: white; /* серый фон */
+            border-radius: 8px;
+        }
+        .div2 {
+            height: 237px;
+            width: 900px;
+            margin-left: 340px;
+            margin-top: 40px;
+            background-color: white; /* серый фон */
+            border-radius: 12px;
+            font-family: Inter;
+        }
+    .innerDiv {
+            width: 286px;
+            height: 165px;
+            background-color: #333; /* темно-серый фон */
+            margin-left: 10px;
+            margin-top: 60px;
+            margin-bottom:10px;
+            border-radius: 5px;
+        }
+.div1, .div2 {
+  display: flex;
+  flex-direction: row;
+}
+.div1 .innerDiv:nth-child(2) {
+  order: -2; /* Перемещаем второй .innerDiv в начало */
+}
+
+.div2 .innerDiv:nth-child(2) {
+  order: -2; /* Перемещаем второй .innerDiv в начало */
+}
+.div1, .div2 {
+  white-space: nowrap;
+}

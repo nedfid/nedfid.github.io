@@ -1,0 +1,248 @@
+html {
+    font-family: 'Open Sans', 'Inter', sans-serif;
+    background-color: #F9F9FA;
+}
+
+body {
+    margin: 0;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004461;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.logo img {
+    height: 32px;
+    width: 164px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 0px;
+    height: 32px;
+    width: 358px;
+}
+
+.search input {
+    margin-top: 4%;
+    height: 32px;
+    width: 358px;
+    border-style: solid;
+    border-color: #F9F9FA;
+    border-radius: 8px;
+    background-color: #266079;
+    border-width: 1px;
+    color: #F9F9FA;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-right: 15%;
+}
+
+.profile p {
+    margin: 3px;
+    color: #ffffff;
+}
+
+.profile img {
+    height: 32px;
+    width: 32px;
+    float: right;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left_place_col {
+    width: 10%;
+    height: 1000px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+
+
+.menu_col {
+    width: 10%;
+    height: 1000px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_menu_place_row {
+    margin: 0px;
+    height: 8%;
+
+}
+
+.menu_row {
+    width: 128px;
+    height: 128px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #CED4D6;
+    border-width: 0.5px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.men_col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.men_col button {
+    width: 96px;
+    border-width: 0px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 1000px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+
+.top_main_place_row {
+    margin: 0px;
+    height: 8%;
+}
+
+.buttons_main_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 920px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+
+.buttons_main_row button {
+    width: 171px;
+    height: 40px;
+    font-size: 16px;
+    border-style: solid;
+    border-color: #004461;
+    border-radius: 5px;
+    background-color: #F9F9FA;
+    transition: background-color 0.4s;
+    /* Задаём время перехода */
+}
+
+.buttons_main_row button:hover {
+    background-color: #004461;
+    color: #ffffff;
+}
+
+.blogs_obj {
+    width: 920px;
+    height: 336px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #CED4D6;
+    border-width: 0.5px;
+    border-radius: 8px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.name {
+    margin-left: 8px;
+    width: 721px;
+    height: 25px;
+    padding: 8px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.top {
+    margin: 10px;
+}
+
+.right_place_col {
+    width: 20%;
+    height: 1000px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+}
+.search-form {
+  position: relative;
+  width: 358px ;
+  height: 34px;
+  margin-left: 300px; /* отступ слева */
+  border: 1px solid white;
+border-radius: 5px; /* рамки закругленные на 5 пикселей */
+background-color: transparent; /* фон цветом прозрачный */
+  border: none;
+  margin-top:8px;
+}
+.search-form::after {
+content: "";
+position: absolute;
+top:8px;
+right: 20px; /* отступ справа для лупы */
+width: 16px;
+height: 16px;
+background-image: url('lupa.svg'); /* замените 'your-image-url.png' на ссылку на вашу иконку лупы */
+background-size: cover;
+}
+.search-form input[type="text"] {
+width: 318px; /* учитываем отступ справа для лупы */
+height: 28px;
+border: 1px solid white;
+color: white;
+border-radius: 5px; /* рамки закругленные на 5 пикселей */
+background-color: rgba(255, 255, 255, 0.15); /* фон цветом прозрачный */
+padding-right: 30px; /* учитываем отступ для лупы */
+margin-right: 100px;
+}
