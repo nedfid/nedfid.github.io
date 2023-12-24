@@ -155,8 +155,9 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
     height: 40px;
-    width: 920px;
+    width: 92%;
     border-style: solid;
     border-color: red;
     border-width: 0px;
