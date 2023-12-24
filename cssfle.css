@@ -181,7 +181,7 @@ header {
 }
 
 .blogs_obj {
-    width: 920px;
+    /* width: 920px; */
     height: 336px;
     background-color: #FFFFFF;
     border-style: solid;
